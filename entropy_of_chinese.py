@@ -87,3 +87,4 @@ if __name__ == '__main__':
         entropy.append(bigram_lm.get_log_prop(s))
     print(entropy)
     print(np.array(entropy).min())
+    
